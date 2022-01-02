@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<RootNamespace>FlyByWireless</RootNamespace>
+		<AssemblyName>FlyByWireless.Tobii.StreamEngine</AssemblyName>
+		<PlatformTarget>x64</PlatformTarget>
+		<Authors>WONG Tin Chi Timothy</Authors>
+		<Product>Tobii Client Wrapper</Product>
+		<Description>Efficient and backward compatible wrapper of Tobii Stream Engine API.</Description>
+		<Copyright>(C) 2022 WONG Tin Chi Timothy</Copyright>
+		<PackageTags>tobii;eye tracking;head tracking;gaze</PackageTags>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<VersionSuffix>alpha.1</VersionSuffix>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/wegylexy/tobii-stream-engine</RepositoryUrl>
+		<Title>Tobii Client Wrapper</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
